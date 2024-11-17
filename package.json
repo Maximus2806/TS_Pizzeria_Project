@@ -9,6 +9,8 @@
     "start": "tsx src/meal/meal.ts",
     "lint": "eslint .",
     "lint-fix": "eslint . --fix",
+    "format": "prettier --config .prettierrc src/**/*.ts --check src/",
+    "format:fix": "prettier --config .prettierrc src/**/*.ts --write src/",
     "test-lint": "npm run lint&&npm run format",
     "prepare": "husky"
   },

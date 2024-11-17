@@ -2,7 +2,6 @@ import { PIZZA_NAMES, DOUGH_TYPE, PIZZA_SIZE } from './data/types';
 import { Pizza } from './meal/pizza';
 import { Order } from './order/order';
 import { Pizzeria } from './pizzeria/pizzeria';
-import { TEST_HUSKY } from './data/messages';
 
 //Check Pizza methods
 try {

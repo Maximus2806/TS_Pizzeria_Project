@@ -6,7 +6,3 @@ export enum ERROR_MESSAGES {
   INVALID_INITIAL_ORDERS = 'Invalid initial orders',
   ALREADY_PAID = 'order has already been paid'
 }
-
-export enum TEST_HUSKY {
-    TEST = 'Test'
-}
