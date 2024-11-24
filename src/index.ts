@@ -41,6 +41,8 @@ console.log(myOrder.getMeals());
 // Create new Pizzeria
 const pizzeria = new Pizzeria('Pizza Paradise', 'Bratyslawska, 2', '10:00-23:00');
 
+console.log(pizzeria.getPizzeriaInfo())
+
 // Test data
 const order1 = pizzeria.createOrder();
 order1.addPizza(PIZZA_NAMES.MARGHERITA, DOUGH_TYPE.THIN, PIZZA_SIZE.MEDIUM, ['cheese', 'tomato']);

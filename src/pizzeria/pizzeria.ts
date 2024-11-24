@@ -5,9 +5,9 @@ export class Pizzeria {
   private orders: Order[] = [];
 
   constructor(
-    public name: string,
-    public address: string,
-    public workingHours: string,
+    private name: string,
+    private address: string,
+    private workingHours: string,
     public initialOrders?: Order[]
   ) {
     if (initialOrders) {
@@ -53,5 +53,9 @@ export class Pizzeria {
       }
       return total;
     }, 0);
+  }
+
+  getPizzeriaInfo(): string {
+    return `Pizzeria: "${this.name}", located at: "${this.address}", working hours "${this.workingHours}"`
   }
 }
